@@ -30,4 +30,6 @@ if __name__ == "__main__":
 
     subs.shift(ratio = ratio)
 
+    subs.save('adjusted.srt', encoding='utf-8')
+
 # TODO : test and document
