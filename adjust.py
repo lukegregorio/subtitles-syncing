@@ -1,3 +1,7 @@
+"""
+WIP . Use video audio detection to detect when the video file last line of the movie is delivered.
+"""
+
 import pysrt
 import moviepy.editor as mp
 

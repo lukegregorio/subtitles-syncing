@@ -38,7 +38,7 @@ if __name__ == "__main__":
     video_duration = get_video_duration(video_file_path)
     
     # get the ratio between video and subtitles duration which is used to adjust the subtitles timings - assumes the 'endings' of both files are the same
-    ratio = subs_duration / video_duration
+    ratio = video_duration / subs_duration
 
     subs.shift(ratio = ratio)
 
